@@ -1,0 +1,27 @@
+.card-info{
+
+    background-color: lightblue;
+    padding: 5px;
+    text-align: center;
+    width: 300px;
+    height: 460px;
+    border: 2px solid rgb(11, 186, 245);
+    border-radius: 20px;
+    line-height: 20px;
+    box-shadow: 10px lightgrey;
+}
+
+.card-info img{
+
+width: 50%;
+height: 35%;
+border-radius: 50%;
+
+}
+
+.btn-info{
+border-radius: 12px;
+width: 40%;
+height: 25px;
+padding:5px;
+}

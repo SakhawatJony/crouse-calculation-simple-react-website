@@ -1,0 +1,30 @@
+.card-container{
+
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin-left: 50px;
+   
+}
+
+.card{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+    margin: 25px;
+    
+   
+}
+
+.total{
+
+
+ background-color: lightblue ; 
+ height: 130px;  
+ padding: 7px;
+ margin-top: 10px;
+ margin: 25px;
+ width: 260px;
+ border-radius: 20px;
+
+}
