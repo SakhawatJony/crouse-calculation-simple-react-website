@@ -7,11 +7,17 @@ const Info = (props) => {
   for(const details of info){
 total = total + details.salary;
   }
+
+  
     return (
         <div className="info">
-            <h3>Total Information Deatails</h3>
+            
+            <h4>Total Information Deatails</h4>
               <h5>Total Information:{props.info.length}</h5>
-              <p>Total Salary :{total}</p>
+              <h6>Total Salary :{total}</h6>
+              {
+                info.map(singleInfo=><li key={singleInfo.name} >{singleInfo.name}</li>)
+            }
         </div>
     );
 };

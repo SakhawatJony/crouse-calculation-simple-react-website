@@ -12,9 +12,9 @@ const Information = (props) => {
         <div className="card-info">
             <img src={img} alt="" />
             <h4>Principal Name: {name}</h4>
-            <p>Degree: {degree}</p>
-            <p>Gmail: {gmail}</p>
-            <p>sma {institute}</p>
+            <h6>Degree: {degree}</h6>
+            <h6>Gmail: {gmail}</h6>
+            <h6> {institute}</h6>
             <h4>Principal Salary: {salary}</h4>
             <button 
             onClick={()=> props.handleAddToInfo(props.info)}
